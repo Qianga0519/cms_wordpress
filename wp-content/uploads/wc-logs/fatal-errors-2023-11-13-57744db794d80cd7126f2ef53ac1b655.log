@@ -1,0 +1,140 @@
+2023-11-13T07:32:43+00:00 CRITICAL Uncaught Error: Call to undefined function wpex_pagination() in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php:63
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php on line 63
+
+2023-11-13T07:33:13+00:00 CRITICAL Uncaught Error: Call to undefined function wpex_pagination() in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php:63
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php on line 63
+
+2023-11-13T10:08:37+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php:677
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(636): Fergcorp_Countdown_Timer->showTimer()
+#1 C:\wamp64\www\wordpress\wp-admin\includes\template.php(1456): Fergcorp_Countdown_Timer->example_display_meta_box(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(287): do_meta_boxes(Object(WP_Screen), 'advanced', NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Fergcorp_Countdown_Timer->settings_page('')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('settings_page_f...')
+#7 C:\wamp64\www\wordpress\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php on line 677
+
+2023-11-13T10:16:17+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php:677
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(636): Fergcorp_Countdown_Timer->showTimer()
+#1 C:\wamp64\www\wordpress\wp-admin\includes\template.php(1456): Fergcorp_Countdown_Timer->example_display_meta_box(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php(287): do_meta_boxes(Object(WP_Screen), 'advanced', NULL)
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Fergcorp_Countdown_Timer->settings_page('')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('settings_page_f...')
+#7 C:\wamp64\www\wordpress\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\countdown-timer\fergcorp_countdownTimer.php on line 677
+
+2023-11-13T10:37:01+00:00 CRITICAL Uncaught Error: Call to undefined function wpex_pagination() in C:\wamp64\www\wordpress\wp-content\themes\website2\single.php:43
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\single.php on line 43
+
+2023-11-13T11:22:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function shorten_post_title(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php on line 72 and exactly 2 expected in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php:229
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\website2\home.php(72): shorten_post_title('Simple Programm...')
+#1 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php on line 229
+
+2023-11-13T11:27:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function short_title(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\website2\home.php on line 71 and exactly 2 expected in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php:227
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\website2\home.php(71): short_title(10)
+#1 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php on line 227
+
+2023-11-13T11:30:15+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php:421
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page.php(342): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): tonjoo_ecae_options_do_page('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php on line 421
+
+2023-11-13T11:31:36+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php:421
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page.php(342): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): tonjoo_ecae_options_do_page('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php on line 421
+
+2023-11-13T11:32:11+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php:421
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page.php(342): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): tonjoo_ecae_options_do_page('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\easy-custom-auto-excerpt\options-page-location.php on line 421
+
+2023-11-13T11:44:09+00:00 CRITICAL Uncaught Error: Undefined constant "is_" in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): university_files('')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\wamp64\www\wordpress\wp-content\themes\website2\header.php(8): wp_head()
+#9 C:\wamp64\www\wordpress\wp-includes\template.php(790): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\wordpress\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\w...', true, Array)
+#11 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\wamp64\www\wordpress\wp-content\themes\website2\home.php(1): get_header()
+#13 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#14 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#15 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php on line 52
+
+2023-11-13T11:44:37+00:00 CRITICAL Uncaught Error: Call to undefined function is_blog() in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): university_files('')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\wamp64\www\wordpress\wp-content\themes\website2\header.php(8): wp_head()
+#9 C:\wamp64\www\wordpress\wp-includes\template.php(790): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\wordpress\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\w...', true, Array)
+#11 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\wamp64\www\wordpress\wp-content\themes\website2\home.php(1): get_header()
+#13 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#14 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#15 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php on line 52
+

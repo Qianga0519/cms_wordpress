@@ -1,0 +1,25 @@
+.col-xs-12 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    /* Set the body to full viewport height */
+}
+
+.about-title,
+p {
+    text-align: justify;
+}
+
+.image-part {
+    text-align: center;
+}
+
+.image-part img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}

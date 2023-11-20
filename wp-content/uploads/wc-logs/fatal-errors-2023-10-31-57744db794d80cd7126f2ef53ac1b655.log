@@ -1,0 +1,21 @@
+2023-10-31T10:06:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "open_product_column_grid" not found or invalid function name in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\woocommerce\archive-product.php(30): do_action('woocommerce_bef...')
+#3 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-31T10:19:14+00:00 CRITICAL Uncaught Error: Call to undefined function add_actio() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php:141
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 141
+

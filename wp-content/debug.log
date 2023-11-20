@@ -1,0 +1,176 @@
+[16-Nov-2023 07:26:47 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:47 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:47 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:47 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:47 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:47 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:47 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:48 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:48 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:48 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:48 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:48 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:48 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:48 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:48 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:48 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:48 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:48 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:48 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:48 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:48 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:48 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:48 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:48 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:48 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:49 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:49 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:49 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:49 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:49 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:49 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:49 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:54 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:54 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:54 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:54 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:54 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:54 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:54 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:54 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:54 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:54 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:54 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:54 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:54 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:54 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806
+[16-Nov-2023 07:26:55 UTC] PHP Warning:  require(C:\wamp64\www\wordpress/wp-includes/deprecated.php): Failed to open stream: No such file or directory in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:55 UTC] PHP Stack trace:
+[16-Nov-2023 07:26:55 UTC] PHP   1. {main}() C:\wamp64\www\wordpress\index.php:0
+[16-Nov-2023 07:26:55 UTC] PHP   2. require() C:\wamp64\www\wordpress\index.php:17
+[16-Nov-2023 07:26:55 UTC] PHP   3. require_once() C:\wamp64\www\wordpress\wp-blog-header.php:13
+[16-Nov-2023 07:26:55 UTC] PHP   4. require_once() C:\wamp64\www\wordpress\wp-load.php:50
+[16-Nov-2023 07:26:55 UTC] PHP   5. require_once() C:\wamp64\www\wordpress\wp-config.php:120
+[16-Nov-2023 07:26:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\wordpress/wp-includes/deprecated.php' (include_path='.;C:\php\pear') in C:\wamp64\www\wordpress\wp-settings.php:222
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-config.php(120): require_once()
+#1 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-settings.php on line 222
+[16-Nov-2023 07:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in C:\wamp64\www\wordpress\wp-includes\l10n.php:806
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\l10n.php(900): load_textdomain('default', 'C:\\wamp64\\www\\w...', 'vi')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\l10n.php on line 806

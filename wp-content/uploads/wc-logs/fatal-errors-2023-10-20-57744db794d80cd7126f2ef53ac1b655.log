@@ -1,0 +1,120 @@
+2023-10-20T15:00:03+00:00 CRITICAL Uncaught Error: Call to undefined function site_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:00:33+00:00 CRITICAL Uncaught Error: Call to undefined function site_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:01:47+00:00 CRITICAL Uncaught Error: Call to undefined function site_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:06:00+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:08:45+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:10:06+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:11:35+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:11:46+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:12:08+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+
+2023-10-20T15:12:38+00:00 CRITICAL Uncaught Error: Call to undefined function tqside_header() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 16
+

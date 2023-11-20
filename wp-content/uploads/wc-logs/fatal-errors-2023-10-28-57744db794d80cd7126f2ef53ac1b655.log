@@ -1,0 +1,78 @@
+2023-10-28T05:57:45+00:00 CRITICAL Uncaught Error: Call to undefined function p_register_style() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php:3
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): file_style('')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\index.php(15): wp_head()
+#9 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#11 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#12 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 3
+
+2023-10-28T06:15:13+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_scripts() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php:8
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): file_style('')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\header.php(9): wp_head()
+#9 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#11 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\index.php(1): get_header()
+#13 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#14 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#15 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 8
+
+2023-10-28T17:28:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 22 and exactly 2 expected in C:\wamp64\www\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php(22): register_nav_menu(Array)
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): simple_theme_nav_config('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-settings.php(610): do_action('after_setup_the...')
+#5 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#8 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#9 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\nav-menu.php on line 136
+
+2023-10-28T17:29:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 22 and exactly 2 expected in C:\wamp64\www\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php(22): register_nav_menu(Array)
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): simple_theme_nav_config('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-settings.php(610): do_action('after_setup_the...')
+#5 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\wordpress\wp-blog-header.php(13): require_once('C:\\wamp64\\www\\w...')
+#8 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#9 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\nav-menu.php on line 136
+
+2023-10-28T17:40:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_nav_menus() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\header.php:37
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\header.php on line 37
+

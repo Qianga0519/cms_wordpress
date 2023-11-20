@@ -1,0 +1,125 @@
+2023-10-25T07:56:36+00:00 CRITICAL Uncaught Error: Call to undefined function thanhquang_menu() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 31
+
+2023-10-25T07:56:36+00:00 CRITICAL Uncaught Error: Call to undefined function thanhquang_menu() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 31
+
+2023-10-25T07:56:37+00:00 CRITICAL Uncaught Error: Call to undefined function thanhquang_menu() in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php:31
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\template.php(720): load_template('C:\\wamp64\\www\\w...', true, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\wordpress\wp-content\themes\thanhquang\index.php(1): get_header()
+#4 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\thanhquang\header.php on line 31
+
+2023-10-25T08:04:58+00:00 CRITICAL Uncaught Error: Value of type null is not callable in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php:25
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 25
+
+2023-10-25T08:05:04+00:00 CRITICAL Uncaught Error: Value of type null is not callable in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php:25
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 25
+
+2023-10-25T08:05:08+00:00 CRITICAL Uncaught Error: Value of type null is not callable in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php:25
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-admin\index.php(10): require_once('C:\\wamp64\\www\\w...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 25
+
+2023-10-25T08:05:11+00:00 CRITICAL Uncaught Error: Value of type null is not callable in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php:25
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-login.php(12): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 25
+
+2023-10-25T08:05:48+00:00 CRITICAL Uncaught Error: Value of type null is not callable in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php:25
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-settings.php(600): include()
+#1 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\wp-login.php(12): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 25
+
+2023-10-25T08:06:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 21 and exactly 2 expected in C:\wamp64\www\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php(21): register_nav_menu(Array)
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): webtheme_nav_config('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-settings.php(610): do_action('after_setup_the...')
+#5 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\wordpress\wp-login.php(12): require('C:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\nav-menu.php on line 136
+
+2023-10-25T08:07:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 21 and exactly 2 expected in C:\wamp64\www\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php(21): register_nav_menu(Array)
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): webtheme_nav_config('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-settings.php(610): do_action('after_setup_the...')
+#5 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#8 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#9 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\nav-menu.php on line 136
+
+2023-10-25T08:09:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php on line 20 and exactly 2 expected in C:\wamp64\www\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\webtheme\functions.php(20): register_nav_menu(Array)
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): webtheme_nav_config('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-settings.php(610): do_action('after_setup_the...')
+#5 C:\wamp64\www\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\w...')
+#6 C:\wamp64\www\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\w...')
+#8 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#9 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\nav-menu.php on line 136
+

@@ -1,0 +1,18 @@
+[25/Sep/2023:08:52:30] (I): WordPress Instance Info:
+[25/Sep/2023:08:52:30] (I): Home URL : http://localhost:8080/wordpress
+[25/Sep/2023:08:52:30] (I): Site URL : http://localhost:8080/wordpress
+[25/Sep/2023:08:52:30] (I): WordPress Version : 6.3.1
+[25/Sep/2023:08:52:30] (I): Onboarding Version : 1.1.39
+[25/Sep/2023:08:52:30] (I): Multisite : No
+[25/Sep/2023:08:52:30] (I): Server Info : Apache/2.4.54 (Win64) PHP/8.0.26 mod_fcgid/2.3.10-dev
+[25/Sep/2023:08:52:30] (I): PHP Version : 8.0.26
+[25/Sep/2023:08:52:30] (I): HTTPS : No
+[25/Sep/2023:08:52:30] (I): PHP Max Execution Time : 120
+[25/Sep/2023:08:52:30] (I): PHP Max Input Vars : 2500
+[25/Sep/2023:08:52:30] (I): Max Upload Size : 2097152
+[25/Sep/2023:08:52:30] (I): Plugins:
+[25/Sep/2023:08:52:30] (I): [PLUGIN] Elementor : v3.16.4 (Elementor.com)
+[25/Sep/2023:08:52:30] (I): [PLUGIN] Loco Translate : v2.6.6 (Tim Whitlock)
+[25/Sep/2023:08:52:30] (I): [PLUGIN] Image optimization service by Optimole : v3.10.0 (Optimole)
+[25/Sep/2023:08:52:30] (I): [PLUGIN] Otter – Page Builder Blocks &amp; Extensions for Gutenberg : v2.4.0 (ThemeIsle)
+[25/Sep/2023:08:52:30] (I): [PLUGIN] Templates Patterns Collection : v1.1.39 (ThemeIsle)

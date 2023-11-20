@@ -1,0 +1,121 @@
+2023-11-16T03:39:58+00:00 CRITICAL Uncaught Error: Value of type bool is not callable in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php:61
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): university_files('')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\wamp64\www\wordpress\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\wamp64\www\wordpress\wp-content\themes\website2\header.php(8): wp_head()
+#9 C:\wamp64\www\wordpress\wp-includes\template.php(790): require_once('C:\\wamp64\\www\\w...')
+#10 C:\wamp64\www\wordpress\wp-includes\template.php(725): load_template('C:\\wamp64\\www\\w...', true, Array)
+#11 C:\wamp64\www\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\wamp64\www\wordpress\wp-content\themes\website2\templates\custom-about-template.php(8): get_header()
+#13 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#14 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#15 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#16 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\website2\functions.php on line 61
+
+2023-11-16T05:44:47+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Table 'wp_cms_nhom3.wp_actionscheduler_actions' doesn't exist in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:126
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(175): ActionScheduler_ActionFactory->create(Array)
+#4 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#10 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#11 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 126
+
+2023-11-16T05:44:47+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'wp_cms_nhom3.wp_actionscheduler_actions' doesn't exist. in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:942
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions(0, 25, NULL, '', '')
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(160): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 942
+
+2023-11-16T05:52:29+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'lng_db.wp_actionscheduler_actions' doesn't exist. in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:942
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions(0, 25, NULL, '', '')
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(160): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 942
+
+2023-11-16T05:52:30+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Table 'lng_db.wp_actionscheduler_actions' doesn't exist in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:126
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(175): ActionScheduler_ActionFactory->create(Array)
+#4 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#10 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#11 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 126
+
+2023-11-16T05:52:34+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Table 'lng_db.wp_actionscheduler_actions' doesn't exist in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:126
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(175): ActionScheduler_ActionFactory->create(Array)
+#4 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#10 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#11 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 126
+
+2023-11-16T05:54:08+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'lng_db.wp_actionscheduler_actions' doesn't exist. in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:942
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions(0, 25, NULL, '', '')
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(160): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(139): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 942
+
+2023-11-16T05:54:08+00:00 CRITICAL Uncaught RuntimeException: Lỗi lưu hành động: Table 'lng_db.wp_actionscheduler_actions' doesn't exist in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:126
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(69): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(327): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(315): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(175): ActionScheduler_ActionFactory->create(Array)
+#4 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\wamp64\www\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#10 C:\wamp64\www\wordpress\wp-admin\themes.php(10): require_once('C:\\wamp64\\www\\w...')
+#11 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 126
+

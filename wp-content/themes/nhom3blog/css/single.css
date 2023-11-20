@@ -1,0 +1,41 @@
+.card-img-top {
+    margin-top: 20px;
+}
+
+.title-post {
+    margin-top: 10px;
+}
+
+.new-post-single {
+    display: flex;
+    margin-top: 20px;
+}
+
+.new-post-title {
+    font-size: 10px;
+    margin-left: 5px;
+    
+}
+
+.img-post-new {
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 150px;
+    max-height: 150px;
+
+}
+
+.img-post-new img {
+
+    width: 460px;
+    height: 120px;
+}
+
+.col-md-8,
+.h3 {
+    margin-top: 100px;
+}
+.content{
+    text-align: justify;
+}
+

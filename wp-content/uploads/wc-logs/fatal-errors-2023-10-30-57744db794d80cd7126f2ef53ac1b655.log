@@ -1,0 +1,70 @@
+2023-10-30T09:48:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_head() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php:1666
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 1666
+
+2023-10-30T09:53:22+00:00 CRITICAL syntax error, unexpected token "<" in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 33
+
+2023-10-30T09:53:50+00:00 CRITICAL Unclosed '{' on line 32 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 1851
+
+2023-10-30T09:54:26+00:00 CRITICAL Unclosed '{' on line 32 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 177
+
+2023-10-30T09:54:31+00:00 CRITICAL Unclosed '{' on line 32 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 176
+
+2023-10-30T09:54:52+00:00 CRITICAL Unclosed '{' on line 32 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 176
+
+2023-10-30T09:55:21+00:00 CRITICAL Unclosed '{' on line 32 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 43
+
+2023-10-30T09:55:39+00:00 CRITICAL Unclosed '{' on line 31 in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 42
+
+2023-10-30T13:20:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php:38
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 38
+
+2023-10-30T13:21:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_home_path() in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php:38
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#3 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\404.php on line 38
+
+2023-10-30T15:33:41+00:00 CRITICAL syntax error, unexpected token ":", expecting ")" in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 29
+
+2023-10-30T15:35:59+00:00 CRITICAL syntax error, unexpected single-quoted string "single_image_width", expecting ")" in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 31
+
+2023-10-30T16:05:53+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 54
+
+2023-10-30T16:07:54+00:00 CRITICAL syntax error, unexpected token ":", expecting ")" in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 58
+
+2023-10-30T16:08:32+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\functions.php on line 57
+
+2023-10-30T16:11:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function " open_container_row_div_classes" not found or invalid function name in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\woocommerce\archive-product.php(32): do_action('woocommerce_bef...')
+#3 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php on line 310
+
+2023-10-30T16:11:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function " open_container_row_div_classes" not found or invalid function name in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\wordpress\wp-content\themes\simple-bootstrap-theme\woocommerce\archive-product.php(32): do_action('woocommerce_bef...')
+#3 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#4 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php on line 310
+

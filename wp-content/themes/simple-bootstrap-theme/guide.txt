@@ -1,0 +1,43 @@
+____CARD ALL IN ONE____
+b1: cài plugin sau đó active
+b2: vào plugin sau đó bật tất cả cá option bạn muốn
+b3: Assign page: để trống sau đó nhấn SAVE
+b4: phía trên gần nút save nhấn link 'go to design'
+b5: thiết lập các tùy chọn của bạn sau đó ấn đăng và sau đó xem kết quả 
+Lưu ý: sau khi cài đặt xong. Nếu 1 sản phẩm hiển thị 2 option thêm giỏ hàng thì vào file functions.php
+nhập dòng lệnh: 
+add_action( 'after_setup_theme', function(){
+	add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 7 );
+});
+
+____CUSTOM LOGO ADMIN____
+b1: Tạo 1 folder (tên folder là tên plugin) trong folder plugin
+b2: Tạo 1 file custom-logo-admin.php
+b3: Khai báo plugin
+<?php
+/** 
+ * Plugin Name: Custom Admin Settings  
+ * Description: Demonstrates how to write custom administration pages in WordPress. 
+ * Version: 1.0.0 
+ * Author: Me
+ * Author URI: https://tommcfarlin.com 
+ * License:  
+ * License URI: 
+ */
+b4: Thêm fucstion
+function custom_logo_admin()
+{?>
+    <style type="text/css">
+        #login h1 a {
+            background-image: url(<?php echo plugins_url('img/logo.png', __FILE__ )?>);
+            width: 175px;
+            height: 160px;
+            background-size: 175px 160px;
+            background-position: center;
+        }
+    </style>
+
+    <?php
+}
+add_action('login_enqueue_scripts', 'custom_logo_admin');
+b5: vào trang admin kích hoạt plugin sau đó đăng xuât và xem kết quả
